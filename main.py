@@ -158,8 +158,9 @@ class MainForm:
 
 
 # MAIN PROGRAM
-enter = [False, 0]
-login = Enter.EntryForm(enter)
+if __name__ == "__main__":
+    enter = [False, 0]
+    login = Enter.EntryForm(enter)
 
-if enter[0] is True:
-    win1 = MainForm(enter)
+    if enter[0] is True:
+        win1 = MainForm(enter)
